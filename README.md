@@ -26,4 +26,5 @@ echo "GROQ_API=tu_clave" > .env
 jupyter notebook "Ejercicio 2.ipynb"
 ```
 
-La ejecución completa tarda unos 40-50 minutos por el límite de tokens por minuto de la cuenta de Groq. Los resultados parciales se guardan en `checkpoint_*.jsonl`, así que se puede reanudar si se interrumpe.
+
+La ejecución completa tarda más de una hora por el límite de tokens por minuto de la cuenta de Groq (en la ejecución entregada fueron unos 85 minutos, contando los reintentos por errores de la API).
